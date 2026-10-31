@@ -32,4 +32,23 @@
     #course-container {
         grid-template-columns: repeat(3, 1fr);
     }
+
+    .course-filters {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .primary-navigation ul {
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 2.5rem;
+    }
+
+    .site-footer {
+        padding: 2.5rem;
+    }
+
+    .footer-social {
+        gap: 40px;
+    }
 }

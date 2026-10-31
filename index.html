@@ -13,34 +13,39 @@
     <link rel="stylesheet" href="styles/home-page-large.css">
     <!-- javascript -->
     <script src="scripts/home-page.js" defer></script>
+    <script src="scripts/courses.js" defer></script>
+    <!-- font awesome -->
+     <script src="https://kit.fontawesome.com/e28fcbbd7a.js" crossorigin="anonymous"></script>
     <!-- google fonts -->
-     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Redaction:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Redaction:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <div>
-            <a href="index.html" class="brand">
-                <img src="images/logo.svg" alt="site logo">
-                <span>Gustavo Pereira</span>
-            </a>
+    <a href="index.html" class="logo">
+        <img src="images/logo.svg" alt="Gustavo Pereira">
+        <span>Gustavo Pereira</span>
+    </a>
 
-            <button class="menu-toggle" type="button" aria-label="Open 
-                navigation menu" aria-expanded="false" aria-controls="primary-navigation">
-                ☰
-            </button>
+    <button class="menu-toggle"
+        type="button"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="primary-navigation">
+        ☰
+    </button>
 
-            <nav id="primary-navigation">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="#">Chamber</a></li>
-                    <li><a href="#">Final</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+    <nav class="primary-navigation" id="primary-navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Chamber</a></li>
+            <li><a href="#">Final</a></li>
+        </ul>
+    </nav>
+</header>
 
     <main>
         <h1>Home</h1>
@@ -49,7 +54,8 @@
             <section class="about">
                 <h2>About Me</h2>
                 <p>
-
+                    My name is Gustavo Pereira. I am a Software Development
+                    student interested in web development and programming.
                 </p>
             </section>
 
@@ -59,29 +65,45 @@
             </section>
         </div>
 
-            <section class="courses">
-                <h2>Web Certificate Courses</h2>
+        <section class="courses">
+            <h2>Web Certificate Courses</h2>
 
-                <div>
-                    <button id="all-courses">All Courses</button>
-                    <button id="wdd-courses">WDD Courses</button>
-                    <button id="cse-courses">CSE Courses</button>
-                </div>
+            <div class="course-filters">
+                <button id="all-courses">All Courses</button>
+                <button id="wdd-courses">WDD Courses</button>
+                <button id="cse-courses">CSE Courses</button>
+            </div>
 
-                <div id="course-container"></div>
+            <div id="course-container"></div>
 
-                <p>Total Credits: <span id="total-credits">0</span></p>
-            </section>
+            <p>Total Credits: <span id="total-credits">0</span></p>
+        </section>
     </main>
 
-    <footer>
-        <ul>
-            <li><a href="https://github.com/silvagustta">GitHub</a></li>
-            <li><a href="https://www.linkedin.com/in/gustavogsp/">LinkedIn</a></li>
-        </ul>
+    <footer class="site-footer">
+        <div class="footer-social">
+    <a href="https://github.com/silvagustta"
+       target="_blank"
+       aria-label="GitHub">
+        <i class="fa-brands fa-github"></i>
+    </a>
+
+    <a href="https://www.linkedin.com/in/gustavogsp/"
+       target="_blank"
+       aria-label="LinkedIn">
+        <i class="fa-brands fa-linkedin"></i>
+    </a>
+
+    <a href="https://wa.link/ho4w4p"
+       target="_blank"
+       aria-label="WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+</div>
 
         <p>
-            &copy; <span id="currentyear"></span> Gustavo Pereira
+            &copy; <span id="currentYear"></span> Gustavo Pereira
+            | Amazonas, Brazil
         </p>
         <p>
             Last Modified: <span id="lastModified"></span>
