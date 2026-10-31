@@ -1,0 +1,35 @@
+@media screen and (min-width: 768px) {
+
+    .menu-toggle {
+        display: none;
+    }
+
+    nav {
+        display: block;
+        width: auto;
+    }
+
+    nav ul {
+        display: flex;
+        gap: 1rem;
+    }
+
+    nav a {
+        padding: 0.5rem;
+    }
+
+    nav a:hover,
+    nav a.active {
+        color: #facc15;
+    }
+
+    .home-content {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 1rem;
+    }
+
+    #course-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
