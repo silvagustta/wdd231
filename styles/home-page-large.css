@@ -1,40 +1,17 @@
 @media screen and (min-width: 768px) {
 
+    /* Header and Navigation */
+    header {
+        flex-wrap: nowrap;
+    }
+
     .menu-toggle {
         display: none;
     }
 
-    nav {
+    .primary-navigation {
         display: block;
         width: auto;
-    }
-
-    nav ul {
-        display: flex;
-        gap: 1rem;
-    }
-
-    nav a {
-        padding: 0.5rem;
-    }
-
-    nav a:hover,
-    nav a.active {
-        color: #facc15;
-    }
-
-    .home-content {
-        display: grid;
-        grid-template-columns: 2fr 1fr;
-        gap: 1rem;
-    }
-
-    #course-container {
-        grid-template-columns: repeat(3, 1fr);
-    }
-
-    .course-filters {
-        grid-template-columns: repeat(3, 1fr);
     }
 
     .primary-navigation ul {
@@ -42,13 +19,39 @@
         justify-content: flex-end;
         align-items: center;
         gap: 2.5rem;
+        padding: 0;
     }
 
+    .primary-navigation a {
+        padding: 0.5rem;
+    }
+
+    /* About and Photo */
+    .home-content {
+        grid-template-columns: 2fr 1fr;
+        gap: 1rem;
+    }
+
+    .photo img {
+        max-width: 100%;
+    }
+
+    /* Courses */
+    #course-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .course-filters {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    /* Footer */
     .site-footer {
-        padding: 2.5rem;
+        padding: 0.25rem;
     }
 
     .footer-social {
-        gap: 40px;
+        gap: 30px;
     }
 }

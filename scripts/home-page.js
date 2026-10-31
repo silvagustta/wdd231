@@ -1,11 +1,9 @@
 // Current year
 const currentYear = new Date().getFullYear();
-
 document.querySelector("#currentYear").textContent = currentYear;
 
 // Last modified date
-document.querySelector("#lastModified").textContent =
-    document.lastModified;
+document.querySelector("#lastModified").textContent = document.lastModified;
 
 // Responsive navigation
 const menuButton = document.querySelector(".menu-toggle");
