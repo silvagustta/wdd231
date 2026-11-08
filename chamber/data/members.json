@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Amazon Tech Solutions",
+        "address": "Av. Djalma Batista, 1200, Manaus - AM",
+        "phone": "(92) 3000-1001",
+        "website": "https://example.com/amazon-tech",
+        "image": "images/empresas/amazon-tech.png",
+        "membership": 3,
+        "description": "Technology solutions and software development for businesses."
+    },
+    {
+        "name": "Manaus Coffee House",
+        "address": "Rua Ramos Ferreira, 450, Manaus - AM",
+        "phone": "(92) 3000-1002",
+        "website": "https://example.com/manaus-coffee",
+        "image": "images/empresas/manaus-coffee.png",
+        "membership": 2,
+        "description": "A local coffee shop offering specialty coffee and fresh food."
+    },
+    {
+        "name": "Amazonas Transport",
+        "address": "Av. Torquato Tapajós, 2500, Manaus - AM",
+        "phone": "(92) 3000-1003",
+        "website": "https://example.com/amazonas-transport",
+        "image": "images/empresas/transport.png",
+        "membership": 3,
+        "description": "Transportation and logistics services throughout Amazonas."
+    },
+    {
+        "name": "Flor do Amazonas",
+        "address": "Av. Constantino Nery, 800, Manaus - AM",
+        "phone": "(92) 3000-1004",
+        "website": "https://example.com/flor-amazonas",
+        "image": "images/empresas/flor.png",
+        "membership": 1,
+        "description": "Flower shop specializing in arrangements and decorations."
+    },
+    {
+        "name": "Norte Fitness Center",
+        "address": "Rua Recife, 650, Manaus - AM",
+        "phone": "(92) 3000-1005",
+        "website": "https://example.com/norte-fitness",
+        "image": "images/empresas/fitness.png",
+        "membership": 2,
+        "description": "Fitness center offering gym equipment and personal training."
+    },
+    {
+        "name": "Amazon Print",
+        "address": "Av. Eduardo Ribeiro, 300, Manaus - AM",
+        "phone": "(92) 3000-1006",
+        "website": "https://example.com/amazon-print",
+        "image": "images/empresas/print.png",
+        "membership": 1,
+        "description": "Printing services, graphic design, and visual communication."
+    },
+    {
+        "name": "Rio Negro Hotel",
+        "address": "Av. Getúlio Vargas, 900, Manaus - AM",
+        "phone": "(92) 3000-1007",
+        "website": "https://example.com/rio-negro-hotel",
+        "image": "images/empresas/hotel.png",
+        "membership": 3,
+        "description": "Hotel offering accommodation and hospitality services."
+    }
+]
