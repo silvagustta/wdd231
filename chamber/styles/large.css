@@ -78,6 +78,11 @@
         border-top: none;
         padding-top: 0;
     }
+
+    main h1 {
+    text-align: left;
+    font-size: 2rem;
+}
 }
 
 @media screen and (min-width: 1000px) {

@@ -206,3 +206,15 @@ footer p {
     padding-top: 1rem;
     border-top: 1px solid rgba(255, 255, 255, 0.3);
 }
+
+.logo-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+main h1 {
+    margin-bottom: 1.5rem;
+    color: var(--primary-color);
+    text-align: center;
+    font-size: 1.8rem;
+}
