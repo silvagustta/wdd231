@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manaus Chamber of Commerce | Business Directory</title>
+    <meta name="description"
+        content="Explore local businesses, services, and members of the Manaus Chamber of Commerce in Amazonas, Brazil.">
+    <meta name="author" content="Gustavo Pereira">
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/logo.png" type="image/png">
+
+    <!-- Facebook Open Graph -->
+    <meta property="og:title" content="Manaus Chamber of Commerce">
+    <meta property="og:description"
+        content="Discover local businesses and services in Manaus, Amazonas, Brazil.">
+    <meta property="og:image"
+        content="https://silvagustta.github.io/wdd231/chamber/images/logo.png">
+    <meta property="og:url"
+        content="https://silvagustta.github.io/wdd231/chamber/directory.html">
+    <meta property="og:type" content="website">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <!-- JavaScript -->
+    <script src="scripts/directory.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <a href="index.html" class="logo">
+                <img src="images/logo.png" alt="Manaus Chamber of Commerce logo">
+                <div>
+                    <h1>Manaus</h1>
+                    <p>Chamber of Commerce</p>
+                </div>
+            </a>
+            <button id="menu-button" aria-label="Open navigation menu"
+                aria-expanded="false">
+                &#9776;
+            </button>
+        </div>
+
+        <nav id="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html" class="active">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Business Directory</h2>
+        <div class="view-buttons">
+            <button id="grid-button" class="active" aria-label="Grid view">
+                Grid
+            </button>
+            <button id="list-button" aria-label="List view">
+                List
+            </button>
+        </div>
+        <section id="members-container" class="grid-view"
+            aria-label="Chamber of Commerce members">
+            <!-- Member information will be loaded here using JavaScript -->
+        </section>
+    </main>
+
+    <footer>
+        <div class="contact-info">
+            <h3>Manaus Chamber of Commerce</h3>
+            <p>Manaus, Amazonas, Brazil</p>
+            <p>Email: info@manauschamber.com</p>
+            <p>Phone: +55 92 3000-0000</p>
+        </div>
+        <div class="development-info">
+            <p>&copy; <span id="current-year"></span> Manaus Chamber of Commerce</p>
+            <p>Gustavo Pereira | WDD 231</p>
+            <p>Last Modification: <span id="last-modified"></span></p>
+        </div>
+    </footer>
+</body>
+
+</html>
