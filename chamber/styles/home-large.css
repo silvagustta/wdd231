@@ -1,0 +1,27 @@
+@media (max-width: 760px) {
+    .site-header { min-height: 72px; }
+    .menu-toggle { display: block; }
+    .primary-navigation {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        padding: .65rem 1rem 1rem;
+        flex-direction: column;
+        align-items: stretch;
+        background: #fff;
+        border-bottom: 1px solid var(--border);
+        box-shadow: var(--shadow);
+    }
+    .primary-navigation.open { display: flex; }
+    .primary-navigation a { padding: .8rem 1rem; }
+    .hero, .hero-content { min-height: 380px; }
+    .hero::after { background: linear-gradient(90deg, rgba(7,25,43,.9), rgba(7,25,43,.52)); }
+    .hero-content { padding: 3rem 0; }
+    .events-grid, .spotlight-grid { grid-template-columns: 1fr; }
+    .weather-panel { grid-template-columns: 1fr; }
+    .forecast-area { padding: 1.2rem 0 0; border-left: 0; border-top: 1px solid var(--border); }
+    .footer-main { grid-template-columns: 1fr 1fr; }
+    .footer-main > div:first-child { grid-column: 1 / -1; }
+}
