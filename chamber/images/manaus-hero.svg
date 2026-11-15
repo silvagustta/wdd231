@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700">
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#183e5a"/><stop offset="1" stop-color="#68a6a8"/></linearGradient>
+ <linearGradient id="water" x2="0" y2="1"><stop stop-color="#3d9295"/><stop offset="1" stop-color="#123d55"/></linearGradient>
+</defs>
+<rect width="1600" height="700" fill="url(#sky)"/>
+<circle cx="1260" cy="155" r="82" fill="#f4c66c" opacity=".9"/>
+<path d="M0 405Q180 330 360 395T720 380T1080 390T1440 370T1600 400V700H0Z" fill="#245d59"/>
+<path d="M0 470Q250 430 500 465T1000 450T1600 470V700H0Z" fill="url(#water)"/>
+<g fill="#153b45">
+ <path d="M100 435V250h120v185zM245 435V210h145v225zM420 435V285h100v150zM550 435V170h150v265zM730 435V245h115v190zM875 435V195h160v240zM1080 435V270h115v165zM1220 435V220h160v215zM1410 435V285h100v150z"/>
+</g>
+<g fill="#e7bd72">
+ <path d="M130 275h18v22h-18zM170 275h18v22h-18zM280 240h20v24h-20zM325 240h20v24h-20zM580 205h22v26h-22zM625 205h22v26h-22zM915 230h22v26h-22zM965 230h22v26h-22zM1260 255h22v25h-22zM1310 255h22v25h-22z"/>
+</g>
+<g fill="#0c2f3b">
+ <path d="M0 520q90-80 180 0q-70-30-130 12M210 520q90-80 180 0q-70-30-130 12M1320 520q90-80 180 0q-70-30-130 12"/>
+</g>
+<path d="M0 590q200-22 400 0t400 0t400 0t400 0" fill="none" stroke="#a4d6d0" stroke-width="5" opacity=".5"/>
+<path d="M0 635q200-22 400 0t400 0t400 0t400 0" fill="none" stroke="#a4d6d0" stroke-width="4" opacity=".35"/>
+</svg>

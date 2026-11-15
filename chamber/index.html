@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover business events, local companies, and community opportunities with the Manaus Chamber of Commerce.">
+    <meta name="author" content="Gustavo Pereira">
+    <meta property="og:title" content="Manaus Chamber of Commerce">
+    <meta property="og:description" content="Connecting businesses and strengthening our community in Manaus, Brazil.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/manaus-hero.svg">
+    <title>Manaus Chamber of Commerce | Home</title>
+    <link rel="icon" href="images/chamber-logo.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles/home.css">
+    <script type="module" src="scripts/main.js"></script>
+</head>
+<body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header">
+        <a class="brand" href="index.html" aria-label="Manaus Chamber of Commerce home">
+            <img src="images/chamber-logo.svg" alt="" width="52" height="52">
+            <span><strong>Manaus</strong><small>Chamber of Commerce</small></span>
+        </a>
+
+        <button class="menu-toggle" type="button" aria-label="Open navigation menu"
+            aria-expanded="false" aria-controls="primary-navigation">
+            <span></span><span></span><span></span>
+        </button>
+
+        <nav id="primary-navigation" class="primary-navigation" aria-label="Main navigation">
+            <a class="active" href="index.html" aria-current="page">Home</a>
+            <a href="discover.html">Discover</a>
+            <a href="directory.html">Directory</a>
+            <a href="join.html">Join</a>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <section class="hero" aria-labelledby="hero-title">
+            <img src="images/manaus-hero.svg" alt="Illustration of Manaus city and the Rio Negro waterfront">
+            <div class="hero-content">
+                <p class="eyebrow">Stronger together</p>
+                <h1 id="hero-title">Growing business.<br>Building community.</h1>
+                <p>Connect with local leaders, discover opportunities, and help Manaus thrive.</p>
+                <a class="button button-primary" href="join.html">Join the Chamber</a>
+            </div>
+        </section>
+
+        <div class="page-content">
+            <section class="events-section" aria-labelledby="events-title">
+                <div class="section-heading">
+                    <p class="eyebrow">What's happening</p>
+                    <h2 id="events-title">Current Events</h2>
+                </div>
+                <div class="events-grid">
+                    <article class="event-card">
+                        <div class="event-date"><strong>20</strong><span>NOV</span></div>
+                        <div>
+                            <h3>Business Networking Morning</h3>
+                            <p>Meet local entrepreneurs, exchange ideas, and build valuable business connections.</p>
+                            <p class="event-meta">Manaus Business Center · 9:00 AM</p>
+                        </div>
+                    </article>
+                    <article class="event-card">
+                        <div class="event-date"><strong>27</strong><span>NOV</span></div>
+                        <div>
+                            <h3>Small Business Workshop</h3>
+                            <p>A practical session about digital presence, customer experience, and business growth.</p>
+                            <p class="event-meta">Innovation Hub Manaus · 2:00 PM</p>
+                        </div>
+                    </article>
+                    <article class="event-card">
+                        <div class="event-date"><strong>04</strong><span>DEC</span></div>
+                        <div>
+                            <h3>Local Commerce Forum</h3>
+                            <p>Discuss opportunities and challenges for companies operating in the Amazonas region.</p>
+                            <p class="event-meta">Community Auditorium · 6:00 PM</p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section class="weather-section" aria-labelledby="weather-title">
+                <div class="section-heading">
+                    <p class="eyebrow">Manaus, Amazonas</p>
+                    <h2 id="weather-title">Local Weather</h2>
+                </div>
+                <div class="weather-panel">
+                    <div id="current-weather" class="current-weather" aria-live="polite">
+                        <p class="loading-message">Loading current weather…</p>
+                    </div>
+                    <div class="forecast-area">
+                        <h3>3-Day Forecast</h3>
+                        <div id="weather-forecast" class="forecast-grid" aria-live="polite">
+                            <p class="loading-message">Loading forecast…</p>
+                        </div>
+                    </div>
+                </div>
+                <p id="weather-error" class="status-message" role="status"></p>
+            </section>
+
+            <section class="spotlights-section" aria-labelledby="spotlights-title">
+                <div class="section-heading">
+                    <p class="eyebrow">Meet our members</p>
+                    <h2 id="spotlights-title">Business Spotlights</h2>
+                    <p>Discover businesses helping our local community grow.</p>
+                </div>
+                <div id="spotlight-container" class="spotlight-grid" aria-live="polite">
+                    <p class="loading-message">Loading chamber members…</p>
+                </div>
+                <p id="spotlight-error" class="status-message" role="status"></p>
+            </section>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-main">
+            <div>
+                <a class="footer-brand" href="index.html">Manaus Chamber of Commerce</a>
+                <p>Connecting businesses. Strengthening Manaus.</p>
+            </div>
+            <address>
+                Manaus, Amazonas, Brazil<br>
+                contact@manauschamber.example<br>
+                +55 (92) 3000-0000
+            </address>
+            <div class="footer-links">
+                <a href="directory.html">Business Directory</a>
+                <a href="join.html">Become a Member</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span id="current-year"></span> Manaus Chamber of Commerce</p>
+            <p>Gustavo Pereira · WDD 231</p>
+            <p>Last modified: <span id="last-modified"></span></p>
+        </div>
+    </footer>
+</body>
+</html>
