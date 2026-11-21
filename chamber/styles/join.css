@@ -14,7 +14,7 @@
     margin-bottom: 2.5rem;
 }
 
-.eyebrow {
+.join-intro .eyebrow {
     color: #a66a24;
     font-weight: 700;
     text-transform: uppercase;
@@ -194,6 +194,7 @@ dialog::backdrop {
 
 .modal-content {
     padding: 1.8rem;
+    text-align: center;
 }
 
 .modal-content h2 {
