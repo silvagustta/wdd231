@@ -227,3 +227,73 @@ dialog::backdrop {
         transform: translateY(0);
     }
 }
+
+
+/* THANK YOU PAGE */
+
+.thankyou-content {
+    max-width: 750px;
+    margin: 3rem auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.thankyou-content .join-intro {
+    margin-bottom: 2rem;
+}
+
+#application-details {
+    background: #f4f6f9;
+    border: 1px solid #dce1e8;
+    border-radius: 12px;
+    padding: 1.8rem;
+    text-align: left;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.07);
+}
+
+#application-details p {
+    padding: 0.7rem 0;
+    margin: 0;
+    border-bottom: 1px solid #dce1e8;
+    line-height: 1.5;
+}
+
+#application-details p:last-child {
+    border-bottom: none;
+}
+
+.thankyou-button {
+    display: inline-block;
+    margin-top: 1.5rem;
+    padding: 1rem 2rem;
+    background: #172b4d;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 700;
+}
+
+.thankyou-button:hover {
+    background: #a66a24;
+}
+
+/* CENTER MEMBERSHIP MODALS */
+
+dialog[open] {
+    position: fixed;
+    inset: 0;
+    margin: auto;
+    max-width: 450px;
+    width: 90%;
+    max-height: 85vh;
+    overflow-y: auto;
+}
+
+.modal-content {
+    text-align: center;
+}
+
+.modal-content ul {
+    text-align: left;
+    padding-left: 1.5rem;
+}
