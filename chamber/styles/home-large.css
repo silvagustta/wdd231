@@ -2,4 +2,8 @@
     .event-container{
         grid-template-columns: repeat(3, 1fr);
     }
+
+    .weather-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
