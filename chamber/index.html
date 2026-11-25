@@ -14,12 +14,9 @@
 
     <!-- Facebook Open Graph -->
     <meta property="og:title" content="Manaus Chamber of Commerce">
-    <meta property="og:description"
-        content="Discover local businesses and services in Manaus, Amazonas, Brazil.">
-    <meta property="og:image"
-        content="https://silvagustta.github.io/wdd231/chamber/images/logo.png">
-    <meta property="og:url"
-        content="https://silvagustta.github.io/wdd231/chamber/directory.html">
+    <meta property="og:description" content="Discover local businesses and services in Manaus, Amazonas, Brazil.">
+    <meta property="og:image" content="https://silvagustta.github.io/wdd231/chamber/images/logo.png">
+    <meta property="og:url" content="https://silvagustta.github.io/wdd231/chamber/">
     <meta property="og:type" content="website">
 
     <!-- CSS -->
@@ -28,12 +25,13 @@
     <link rel="stylesheet" href="styles/large.css">
 
     <!-- JavaScript -->
-    <script src="scripts/directory.js" defer></script>
+    <script src="scripts/main.js" defer></script>
 
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Redaction:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Redaction:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -46,8 +44,7 @@
                     <p>Chamber of Commerce</p>
                 </div>
             </a>
-            <button id="menu-button" aria-label="Open navigation menu"
-                aria-expanded="false">
+            <button id="menu-button" aria-label="Open navigation menu" aria-expanded="false">
                 &#9776;
             </button>
         </div>
@@ -56,14 +53,83 @@
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="discover.html">Discover</a></li>
-                <li><a href="directory.html" class="active">Directory</a></li>
+                <li><a href="directory.html">Directory</a></li>
                 <li><a href="join.html">Join</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
+        <section class="hero">
+            <img src="images/manaus-hero.svg" alt="Manaus, Amazonas">
 
+            <div class="hero-content">
+                <a href="join.html">Join the Chamber</a>
+            </div>
+        </section>
+
+        <section class="current-events">
+            <div class="event-header">
+                <h2>Current Events</h2>
+                <p>Check out our futures events</p>
+            </div>
+
+            <div class="event-container">
+                <article class="event-card">
+                    <h3></h3>
+                    <time datetime=""></time>
+                    <p></p>
+                </article>
+
+                <article class="event-card">
+                    <h3></h3>
+                    <time datetime=""></time>
+                    <p></p>
+                </article>
+
+                <article class="event-card">
+                    <h3></h3>
+                    <time datetime=""></time>
+                    <p></p>
+                </article>
+            </div>
+        </section>
+
+        <section class="weather">
+            <div class="weather-header">
+                <h2>Weather</h2>
+            </div>
+
+            <div class="current-weather">
+                <img src="" alt="">
+                <h3></h3>
+                <p></p>
+            </div>
+
+            <div class="weather-container">
+                <article class="forecast-card">
+                    <h3></h3>
+                    <img src="" alt="">
+                    <p></p>
+                </article>
+
+                <article class="forecast-card">
+                    <h3></h3>
+                    <img src="" alt="">
+                    <p></p>
+                </article>
+
+                <article class="forecast-card">
+                    <h3></h3>
+                    <img src="" alt="">
+                    <p></p>
+                </article>
+            </div>
+        </section>
+
+        <section class="spotlights">
+            <div class="business-cards"></div>
+        </section>
     </main>
 
     <footer>
