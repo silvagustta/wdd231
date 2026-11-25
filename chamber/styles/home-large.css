@@ -6,4 +6,8 @@
     .weather-container {
         grid-template-columns: repeat(3, 1fr);
     }
+
+    .spotlight-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
