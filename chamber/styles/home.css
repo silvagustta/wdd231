@@ -244,6 +244,15 @@ header {
     margin: 0 auto;
 }
 
+.spotlight-card a {
+    display: inline-block;
+    padding: 0.6rem 1rem;
+    background-color: var(--secondary-color);
+    color: var(--white);
+    text-decoration: none;
+    border-radius: 5px;
+}
+
 /* footer */
 footer {
     margin-top: 2rem;

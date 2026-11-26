@@ -36,6 +36,9 @@ async function getMembers() {
         link.rel = "noopener noreferrer";
         card.appendChild(link);
 
-        
+        spotlightContainer.appendChild(card);
+        console.log(member);
     });
 }
+
+getMembers();
