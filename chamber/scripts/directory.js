@@ -1,4 +1,3 @@
-
 // Select HTML elements
 const membersContainer = document.querySelector("#members-container");
 const gridButton = document.querySelector("#grid-button");
