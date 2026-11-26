@@ -26,6 +26,9 @@
 
     <!-- JavaScript -->
     <script src="scripts/main.js" defer></script>
+    <script type="module" src="scripts/weather.js"></script>
+    <!-- <script src="scripts/config.js"></script> -->
+
 
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -102,17 +105,17 @@
 
             <div class="current-weather">
                 <div class="weather-info">
-                    <img src="" alt="">
-                    <h3></h3>
+                    <img id="weather-icon" src="" alt="">
+                    <h3 id="current-temperature"></h3>
                 </div>
-                <p></p>
+                <p id="weather-description"></p>
             </div>
 
             <div class="weather-container">
                 <article class="forecast-card">
-                    <h3></h3>
+                    <h3 id=""></h3>
                     <img src="" alt="">
-                    <p></p>
+                    <p ></p>
                 </article>
 
                 <article class="forecast-card">
