@@ -10,4 +10,28 @@
     .spotlight-container {
         grid-template-columns: repeat(3, 1fr);
     }
+
+    #menu-button {
+        display: none;
+    }
+    
+    #navigation {
+        display: block;
+    }
+
+    #navigation ul {
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem 2rem;
+    }
+
+    .header-content {
+        padding: 0;
+    }
 }

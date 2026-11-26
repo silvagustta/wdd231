@@ -1,8 +1,21 @@
-import { loadWeather } from './weather.js';
-import { loadSpotlights } from './spotlight.js';
+document.addEventListener('DOMContentLoaded', () => {
+    const menuButton = document.querySelector('#menu-button');
+    const navigation = document.querySelector('#navigation');
 
-const menuButton = document.querySelector('.menu-toggle');
-const navigation = document.querySelector('#primary-navigation');
+    console.log('Botão:', menuButton);
+    console.log('Navegação:', navigation);
+
+    if (menuButton && navigation) {
+        menuButton.addEventListener('click', () => {
+            const isOpen = navigation.classList.toggle('open');
+            menuButton.setAttribute('aria-expanded', String(isOpen));
+        });
+    }
+});
+
+
+const menuButton = document.querySelector('.menu-button');
+const navigation = document.querySelector('#navigation');
 
 if (menuButton && navigation) {
     menuButton.addEventListener('click', () => {
@@ -26,5 +39,5 @@ const modifiedElement = document.querySelector('#last-modified');
 if (yearElement) yearElement.textContent = new Date().getFullYear();
 if (modifiedElement) modifiedElement.textContent = document.lastModified;
 
-loadWeather();
-loadSpotlights();
+console.log(menuButton);
+console.log(navigation);

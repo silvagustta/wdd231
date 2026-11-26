@@ -1,8 +1,5 @@
-import { loadWeather } from './weather.js';
-import { loadSpotlights } from './spotlight.js';
-
-const menuButton = document.querySelector('.menu-toggle');
-const navigation = document.querySelector('#primary-navigation');
+const menuButton = document.querySelector('#menu-button');
+const navigation = document.querySelector('#navigation');
 
 if (menuButton && navigation) {
     menuButton.addEventListener('click', () => {
@@ -26,5 +23,6 @@ const modifiedElement = document.querySelector('#last-modified');
 if (yearElement) yearElement.textContent = new Date().getFullYear();
 if (modifiedElement) modifiedElement.textContent = document.lastModified;
 
-loadWeather();
-loadSpotlights();
+
+console.log(menuButton);
+console.log(navigation);
