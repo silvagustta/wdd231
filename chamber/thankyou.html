@@ -23,28 +23,28 @@
 
     <a class="skip-link" href="#main-content">Skip to main content</a>
 
-    <header class="header-content">
-        <a class="logo" href="index.html" aria-label="Manaus Chamber of Commerce home">
-            <img src="images/chamber-logo.svg" alt="" width="52" height="52">
-            <span>
-                <strong>Manaus</strong>
-                <small>Chamber of Commerce</small>
-            </span>
-        </a>
+    <header>
+        <div class="header-content">
+            <a href="index.html" class="logo">
+                <img src="images/logo.png" alt="">
+                <!-- Manaus Chamber of Commerce logo -->
+                <div>
+                    <p class="logo-title">Manaus</p>
+                    <p>Chamber of Commerce</p>
+                </div>
+            </a>
+            <button id="menu-button" aria-label="Open navigation menu" aria-expanded="false">
+                &#9776;
+            </button>
+        </div>
 
-        <button class="menu-button" type="button"
-            aria-label="Open navigation menu"
-            aria-expanded="false"
-            aria-controls="navigation">
-            <span></span><span></span><span></span>
-        </button>
-
-        <nav id="navigation" class="navigation"
-            aria-label="Main navigation">
-            <a href="index.html">Home</a>
-            <a href="discover.html">Discover</a>
-            <a href="directory.html">Directory</a>
-            <a href="join.html">Join</a>
+        <nav id="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+            </ul>
         </nav>
     </header>
 

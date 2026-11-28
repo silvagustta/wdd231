@@ -233,6 +233,15 @@ dialog::backdrop {
     }
 }
 
+@media (prefers-reduced-motion: reduce) {
+    .membership-card {
+        animation: none;
+    }
+
+    .membership-card:hover {
+        transform: none;
+    }
+}
 
 /* THANK YOU PAGE */
 
@@ -303,4 +312,26 @@ dialog[open] {
     padding-left: 1.5rem;
 }
 
-/* SUBMIT */
+/* skip */
+
+.skip-link {
+    position: absolute;
+    top: -100px;
+    left: 1rem;
+    z-index: 1000;
+    padding: 0.75rem 1rem;
+
+
+    background-color: #fff;
+    color: #12304a;
+
+    border: 2px solid #e5a823;
+    border-radius: 5px;
+
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.skip-link:focus {
+    top: 1rem;
+}

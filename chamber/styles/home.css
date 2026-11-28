@@ -95,7 +95,7 @@ header {
 }
 
 /* menu */
-#menu-button {
+#menu-button, .menu-button {
     border: none;
     background: transparent;
     color: var(--white);
@@ -128,6 +128,8 @@ header {
     background-color: var(--secondary-color);
     color: #222;
 }
+
+
 
 /* events */
 .event-header {
