@@ -1,6 +1,3 @@
-
-/* JOIN PAGE */
-
 .join-main {
     max-width: 1200px;
     margin: 0 auto;
@@ -77,6 +74,7 @@
 #membership-form input,
 #membership-form select,
 #membership-form textarea {
+    box-sizing: border-box;
     width: 100%;
     padding: 0.85rem;
     border: 1px solid #b8c1ce;
@@ -108,11 +106,17 @@
     font-weight: 700;
     cursor: pointer;
     transition: background 0.2s ease;
+
+    cursor: pointer;
+    transition: background 0.2s ease, transform 0.2s ease;
 }
 
 .submit-button:hover {
     background: #a66a24;
+    transform: translateY(-2px);
 }
+
+
 
 /* MEMBERSHIP CARDS */
 
@@ -298,3 +302,5 @@ dialog[open] {
     text-align: left;
     padding-left: 1.5rem;
 }
+
+/* SUBMIT */
